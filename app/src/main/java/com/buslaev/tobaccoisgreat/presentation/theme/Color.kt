@@ -1,4 +1,4 @@
-package com.buslaev.tobaccoisgreat.ui.theme
+package com.buslaev.tobaccoisgreat.presentation.theme
 
 import androidx.compose.ui.graphics.Color
 

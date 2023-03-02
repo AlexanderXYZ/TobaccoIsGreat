@@ -1,4 +1,4 @@
-package com.buslaev.tobaccoisgreat.ui.theme
+package com.buslaev.tobaccoisgreat.presentation.theme
 
 import android.app.Activity
 import android.os.Build
