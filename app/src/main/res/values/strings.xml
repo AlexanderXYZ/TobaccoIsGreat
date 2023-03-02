@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Tobacco is Great</string>
+
+    <string name="new_tobacco_screen_title">Create Tobacco</string>
 </resources>
