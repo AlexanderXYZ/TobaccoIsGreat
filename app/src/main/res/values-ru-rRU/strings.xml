@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tobacco is Great</string>
+
+    <string name="new_tobacco_screen_title">Create Tobacco</string>
+
+    <string name="button_continue">Далее</string>
+    <string name="button_start">Начать</string>
+    <string name="button_skip">Пропустить</string>
+
+    <string name="onboarding_text_one">Готовые миксы для кальяна на любой вкус и настроение</string>
+    <string name="onboarding_text_two">Возможность создавать и сохранять свои миксы</string>
+    <string name="onboarding_text_three">Полезные советы и рекомендации по пользованию кальяном</string>
+
+    <string name="new_tobacco_name">Название табака</string>
+    <string name="new_tobacco_gram">Грамм табака</string>
+</resources>

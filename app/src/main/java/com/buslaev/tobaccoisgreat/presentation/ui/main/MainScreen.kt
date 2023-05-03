@@ -19,18 +19,6 @@ fun MainScreen(
 ) {
     val bottomNavController = rememberNavController()
     Scaffold(
-        floatingActionButton = {
-            FloatingActionButton(onClick = {
-                val route = when (bottomNavController.currentBackStackEntry?.destination?.route) {
-                    BottomScreens.TOBACCO_SCREEN.route -> Screens.NEW_TOBACCO.route
-                    BottomScreens.MIX_SCREEN.route -> Screens.NEW_MIX.route
-                    else -> null
-                }
-                route?.let { navController.navigate(it) }
-            }) {
-                Icon(imageVector = Icons.Default.Add, contentDescription = "")
-            }
-        },
         bottomBar = {
             MainBottomNavigationBar(bottomNavController)
         }
@@ -40,7 +28,8 @@ fun MainScreen(
             modifier = Modifier
                 .fillMaxSize()
                 .padding(innerPadding)
-                .background(DarkGrayColor)
+                .background(DarkGrayColor),
+            navigateToScreen = { screen -> navController.navigate(screen.route) }
         )
     }
 }

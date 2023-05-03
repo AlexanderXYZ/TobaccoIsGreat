@@ -2,4 +2,15 @@
     <string name="app_name">Tobacco is Great</string>
 
     <string name="new_tobacco_screen_title">Create Tobacco</string>
+
+    <string name="button_continue">Continue</string>
+    <string name="button_start">Start</string>
+    <string name="button_skip">Skip</string>
+
+    <string name="onboarding_text_one">Ready-made hookah mixes for every taste and mood</string>
+    <string name="onboarding_text_two">Ability to create and save your mixes</string>
+    <string name="onboarding_text_three">Useful tips and recommendations for using a hookah</string>
+
+    <string name="new_tobacco_name">Tobacco title</string>
+    <string name="new_tobacco_gram">Tobacco gram</string>
 </resources>
